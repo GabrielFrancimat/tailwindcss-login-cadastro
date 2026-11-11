@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+    <title>Screen of Sign Up</title>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-stone-100">
+  <div class="p-9 flex flex-col rounded-xl bg-white border border-gray-300 w-md">
+        <div class="text-lg text-center itens-center">
+          <h2 class="font-bold text-2xl">Criar Conta</h2>
+          <span class="text-slate-400">Preencha seus dados</span>
+        </div>
+        
+        <form action="post" class="flex flex-col text-center itens-center gap-y-3">
+          <label for="" class="font-bold text-left">Name</label>
+          <input type="text" class="border-1 border-gray-200 rounded-md p-2" placeholder="Seu nome">
+          <label for="" class="font-bold text-left">E-mail</label>
+          <input type="email" class="border-1 border-gray-200 rounded-md p-2" placeholder="voce@email.com">
+          <label for="" class="font-bold text-left">Password</label>
+          <input type="password" class="border-1 border-gray-200 rounded-md p-2" placeholder=".........">
+          <button class="bg-slate-950 text-white rounded-md p-3">Cadastrar</button>
+          <span>Já tem conta ? <button class="font-bold">Entrar</button></span>
+        </form>
+    </div>
+</body>
+</html>
